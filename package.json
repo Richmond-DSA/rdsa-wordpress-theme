@@ -1,5 +1,5 @@
 {
-	"name": "dsarichmond",
+	"name": "rdsa-wordpress-theme",
 	"version": "3.1.0",
 	"description": "Wordpress theme for Democratic Socialists of Richmond website",
 	"scripts": {
@@ -10,7 +10,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ajmarvingomez/upgradedorg"
+		"url": "git+https://github.com/Richmond-DSA/rdsa-wordpress-theme"
 	},
 	"keywords": [
 		"wordpress",
@@ -21,9 +21,9 @@
 	"author": "Richmond Democratic Socialists of America <admin@dsarichmond.org>",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/ajmarvingomez/upgradedorg/issues"
+		"url": "https://github.com/Richmond-DSA/rdsa-wordpress-theme"
 	},
-	"homepage": "https://github.com/ajmarvingomez/upgradedorg/",
+	"homepage": "https://github.com/Richmond-DSA/rdsa-wordpress-theme",
 	"devDependencies": {
 		"@wordpress/scripts": "^30.7.0",
 		"gulp": "^5.0.0",
