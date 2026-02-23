@@ -195,10 +195,17 @@ if (defined('JETPACK__VERSION')) {
 }
 
 /******* NEW CODE: ************/
+function rdsa_custom_blocks()
+{
+	register_block_type(__DIR__ . '/build/custom-blocks/mailchimp');
+}
+add_action('init', 'rdsa_custom_blocks');
 
-register_block_type(__DIR__ . '/build/custom-blocks/mailchimp');
-
-wp_enqueue_script('main', get_parent_theme_file_uri('build/index.js'), [], _S_VERSION, ['strategy' => 'defer', 'in_footer' => true]);
+function rdsa_enqueue_main_script()
+{
+	wp_enqueue_script('main', get_parent_theme_file_uri('build/index.js'), [], _S_VERSION, ['strategy' => 'defer', 'in_footer' => true]);
+}
+add_action('wp_enqueue_scripts', 'rdsa_enqueue_main_script', 10);
 
 // Adding excerpt for page
 add_post_type_support('page', 'excerpt');
