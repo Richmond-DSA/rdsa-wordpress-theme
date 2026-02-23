@@ -6,7 +6,8 @@
 		"build": "wp-scripts format && wp-scripts build --webpack-copy-php && gulp css:compile",
 		"watch": "wp-scripts start --webpack-copy-php && gulp css:watch",
 		"start": "npm run watch && gulp css:watch",
-		"format": "wp-scripts format"
+		"format": "wp-scripts format",
+		"wp-env": "wp-env"
 	},
 	"repository": {
 		"type": "git",
@@ -25,6 +26,7 @@
 	},
 	"homepage": "https://github.com/Richmond-DSA/rdsa-wordpress-theme",
 	"devDependencies": {
+		"@wordpress/env": "^11.0.0",
 		"@wordpress/scripts": "^30.7.0",
 		"gulp": "^5.0.0",
 		"gulp-sass": "^5.0.0",
