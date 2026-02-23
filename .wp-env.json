@@ -1,0 +1,6 @@
+{
+    "core" : "WordPress/WordPress",
+    "phpVersion": null,
+    "testsEnvironment": false,
+    "themes" : ["."]
+}
