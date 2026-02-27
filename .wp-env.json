@@ -2,5 +2,6 @@
     "core" : "WordPress/WordPress",
     "phpVersion": null,
     "testsEnvironment": false,
-    "themes" : ["."]
+    "themes" : ["."],
+    "plugins" : ["futtta/autoptimize", "futtta/async-javascript", "https://downloads.wordpress.org/plugin/contact-form-7.zip", "https://downloads.wordpress.org/plugin/contact-form-7-honeypot.zip"]
 }
