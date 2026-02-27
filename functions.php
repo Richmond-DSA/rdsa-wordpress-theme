@@ -208,7 +208,18 @@ function rdsa_enqueue_main_script()
 add_action('wp_enqueue_scripts', 'rdsa_enqueue_main_script', 10);
 
 // Adding excerpt for page
-add_post_type_support('page', 'excerpt');
-add_post_type_support('initiatives', 'excerpt');
-add_post_type_support('resources', 'excerpt');
-add_post_type_support('page', 'custom-fields');
+function rdsa_add_custom_post_type_supports()
+{
+	add_post_type_support('page', 'excerpt');
+	add_post_type_support('initiative', 'excerpt');
+	add_post_type_support('initiative', 'editor', array(
+		'notes' => true,
+	));
+	add_post_type_support('resource', 'excerpt');
+	add_post_type_support('resource', 'editor', array(
+		'notes' => true,
+	));
+	add_post_type_support('page', 'custom-fields');
+}
+
+add_action('init', 'rdsa_add_custom_post_type_supports');
