@@ -1,6 +1,6 @@
 {
 	"name": "rdsa-wordpress-theme",
-	"version": "3.1.0",
+	"version": "3.2.1",
 	"description": "Wordpress theme for Democratic Socialists of Richmond website",
 	"scripts": {
 		"build": "wp-scripts format && wp-scripts build --webpack-copy-php && gulp css:compile",
