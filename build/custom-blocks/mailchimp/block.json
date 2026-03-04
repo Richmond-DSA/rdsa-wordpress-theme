@@ -8,7 +8,7 @@
     "file:index.js"
   ],
   "style": [
-    "file:index.css"
+    "file:mailchimp.css"
   ],
   "script": [
     "file:mailchimp.js"
