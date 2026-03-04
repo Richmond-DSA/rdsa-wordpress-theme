@@ -1,7 +1,24 @@
 {
-    "core" : "WordPress/WordPress",
+    "core": "WordPress/WordPress",
     "phpVersion": null,
     "testsEnvironment": false,
-    "themes" : ["."],
-    "plugins" : ["https://downloads.wordpress.org/plugin/autoptimize.zip", "https://downloads.wordpress.org/plugin/async-javascript.zip", "https://downloads.wordpress.org/plugin/contact-form-7.zip", "https://downloads.wordpress.org/plugin/contact-form-7-honeypot.zip", "https://downloads.wordpress.org/plugin/stops-core-theme-and-plugin-updates.zip", "https://downloads.wordpress.org/plugin/ewww-image-optimizer.zip", "https://downloads.wordpress.org/plugin/members.zip", "https://downloads.wordpress.org/plugin/my-eyes-are-up-here.zip", "https://downloads.wordpress.org/plugin/wp-nested-pages.zip","https://downloads.wordpress.org/plugin/svg-support.zip", "https://downloads.wordpress.org/plugin/two-factor-authentication.zip", "https://downloads.wordpress.org/plugin/wp-file-manager.zip", "https://downloads.wordpress.org/plugin/wp-super-cache.zip", "https://downloads.wordpress.org/plugin/wordpress-seo.zip" ]
+    "themes": [
+        "."
+    ],
+    "plugins": [
+        "https://downloads.wordpress.org/plugin/autoptimize.zip",
+        "https://downloads.wordpress.org/plugin/async-javascript.zip",
+        "https://downloads.wordpress.org/plugin/contact-form-7.zip",
+        "https://downloads.wordpress.org/plugin/contact-form-7-honeypot.zip",
+        "https://downloads.wordpress.org/plugin/stops-core-theme-and-plugin-updates.zip",
+        "https://downloads.wordpress.org/plugin/ewww-image-optimizer.zip",
+        "https://downloads.wordpress.org/plugin/members.zip",
+        "https://downloads.wordpress.org/plugin/my-eyes-are-up-here.zip",
+        "https://downloads.wordpress.org/plugin/wp-nested-pages.zip",
+        "https://downloads.wordpress.org/plugin/svg-support.zip",
+        "https://downloads.wordpress.org/plugin/two-factor-authentication.zip",
+        "https://downloads.wordpress.org/plugin/wp-file-manager.zip",
+        "https://downloads.wordpress.org/plugin/wp-super-cache.zip",
+        "https://downloads.wordpress.org/plugin/wordpress-seo.zip"
+    ]
 }
