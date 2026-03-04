@@ -1,9 +1,20 @@
-// external
-@import '_scss/_ext/header';
-@import '_scss/_ext/underscore';
+/*!
+Theme Name: DSA Richmond
+Theme URI: https://github.com/Richmond-DSA/rdsa-wordpress-theme
+Author: Richmond Democratic Socialists of America <admin@dsarichmond.org>
+Author URI: https://dsarichmond.org
+Description: Custom black-white-and-red website for Democratic Socialists of America, featuring responsive design, a clean look, custom navigation, and intuitive design.
+Version: 3.1.1
+Tested up to: 6.0
+Requires PHP: 8.1
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: dsarichmond
+Tags: custom, responsive, clean, geometric, CSS grid, flexbox, DSA
 
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/ */
 
-/* ************************** KATHERINE'S STYLES BELOW *************************/
 :root :where(.wp-site-blocks) > * {
 	margin-block-start: 0;
 }
@@ -16,31 +27,3 @@ body {
 		line-height: 1.5;
 	}
 }
-
-// vars
-@import '_scss/_includes/colors';
-
-// nav
-@import '_scss/_includes/footer';
-@import '_scss/_includes/menu';
-
-// layouts
-@import '_scss/_layouts/archive';
-@import '_scss/_layouts/content';
-@import '_scss/_layouts/page';
-@import '_scss/_layouts/single';
-
-// includes
-@import '_scss/_includes/social-media';
-@import '_scss/_includes/newsletter';
-
-// pages
-@import '_scss/_pages/404';
-@import '_scss/_pages/about';
-@import '_scss/_pages/blog';
-@import '_scss/_pages/contact';
-@import '_scss/_pages/homepage';
-@import '_scss/_pages/join';
-@import '_scss/_pages/projects';
-@import '_scss/_pages/resources';
-@import '_scss/_pages/search';
