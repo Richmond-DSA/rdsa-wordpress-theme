@@ -4,8 +4,8 @@ Theme URI: https://github.com/Richmond-DSA/rdsa-wordpress-theme
 Author: Richmond Democratic Socialists of America <admin@dsarichmond.org>
 Author URI: https://dsarichmond.org
 Description: Custom black-white-and-red website for Democratic Socialists of America, featuring responsive design, a clean look, custom navigation, and intuitive design.
-Version: 3.1.1
-Tested up to: 6.0
+Version: 3.2.0
+Tested up to: 7.0
 Requires PHP: 8.1
 License: GNU General Public License v2 or later
 License URI: LICENSE
@@ -13,4 +13,4 @@ Text Domain: dsarichmond
 Tags: custom, responsive, clean, geometric, CSS grid, flexbox, DSA
 
 Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/ */:root :where(.wp-site-blocks)>*{margin-block-start:0}body{margin:0;font-family:var(--wp--preset--font-family--primary)}body p{line-height:1.5}
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/ */:root :where(.wp-site-blocks)>*{margin-block-start:0}body{margin:0;font-family:var(--wp--preset--font-family--primary)}body p{line-height:1.5}.wpcf7-form p input,.wpcf7-form p textarea{width:100%;padding-left:8px;border:2px solid;border-color:var(--wp--preset--color--dsa-black);line-height:3;border-radius:0;outline-width:0px}.wpcf7-form p input:hover,.wpcf7-form p input:focus,.wpcf7-form p textarea:hover,.wpcf7-form p textarea:focus{border-color:var(--wp--preset--color--dsa-red-1) !important;box-shadow:2px 2px 4px var(--wp--preset--color--dsa-black-1) !important}.wpcf7-form p input[type=submit]{box-sizing:border-box;font-weight:700;background-color:var(--wp--preset--color--dsa-red-1);color:#fff;border:2px solid;border-color:var(--wp--preset--color--dsa-black) !important;cursor:pointer;transition:background-color .3s;border-radius:0 !important}.wpcf7-form p input[type=submit]:hover,.wpcf7-form p input[type=submit]:focus{border-color:var(--wp--preset--color--dsa-red-1) !important;text-decoration:underline;box-shadow:2px 2px 4px var(--wp--preset--color--dsa-black-1) !important}.wpcf7-form div[role=form] p{margin:.625rem 0}
