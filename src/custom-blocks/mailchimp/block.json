@@ -5,6 +5,6 @@
 	"title": "Mailchimp Block",
 	"render": "file:render.php",
 	"editorScript": ["file:index.js"],
-	"style": ["file:index.css"],
+	"style": ["file:mailchimp.css"],
 	"script": ["file:mailchimp.js"]
 }

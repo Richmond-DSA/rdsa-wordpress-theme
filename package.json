@@ -7,7 +7,8 @@
 		"watch": "wp-scripts start --webpack-copy-php && gulp css:watch",
 		"start": "npm run watch && gulp css:watch",
 		"format": "wp-scripts format",
-		"wp-env": "wp-env"
+		"wp-env": "wp-env",
+		"wp-scripts": "wp-scripts"
 	},
 	"repository": {
 		"type": "git",
