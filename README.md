@@ -1,6 +1,15 @@
 # DSA Richmond Wordpress Theme
 Made with love by the socialists at the Richmond Democratic Socialists of America!
 
+## Custom Post Types
+Our theme uses 2 primary custom post types: Initiatives and Resources
+
+### Initiatives
+Initiatives are a custom post type that is used for our working groups and priority campaigns.
+
+### Resources
+Resource pages are used for resource items that the chapter posesses, such as documentation, guides, meeting notes etc.
+
 ## Adding plugins to wp-env.json
 1. Navigate to plugin page of plugin you wish to add
 2. Open wp-env.json file
