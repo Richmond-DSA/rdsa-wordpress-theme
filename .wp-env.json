@@ -3,5 +3,5 @@
     "phpVersion": null,
     "testsEnvironment": false,
     "themes" : ["."],
-    "plugins" : ["futtta/autoptimize", "futtta/async-javascript", "https://downloads.wordpress.org/plugin/contact-form-7.zip", "https://downloads.wordpress.org/plugin/contact-form-7-honeypot.zip"]
+    "plugins" : ["https://downloads.wordpress.org/plugin/autoptimize.zip", "https://downloads.wordpress.org/plugin/async-javascript.zip", "https://downloads.wordpress.org/plugin/contact-form-7.zip", "https://downloads.wordpress.org/plugin/contact-form-7-honeypot.zip", "https://downloads.wordpress.org/plugin/block-accessibility-checks.zip"]
 }
