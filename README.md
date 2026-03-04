@@ -1,6 +1,13 @@
 # DSA Richmond Wordpress Theme
 Made with love by the socialists at the Richmond Democratic Socialists of America!
 
+## Adding plugins to wp-env.json
+1. Navigate to plugin page of plugin you wish to add
+2. Open wp-env.json file
+3. Add download zip from the plugin page to plugins section of wp-env.
+4. Remove the version from the zip download, if any.
+5. Commit
+
 ## Getting Started
 1. ```npm i```
 2. ```npm run wp-env start``` installs and starts the docker container.
