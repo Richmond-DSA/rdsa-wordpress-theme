@@ -155,7 +155,7 @@ add_action('widgets_init', 'dsarichmond_widgets_init');
 function dsarichmond_scripts()
 {
 	wp_enqueue_style('dsarichmond-style', get_stylesheet_uri(), array(), _S_VERSION);
-	wp_enqueue_style('main-style', get_stylesheet_directory_uri() . '/build/style-index.css', array(), _S_VERSION);
+
 
 	wp_style_add_data('dsarichmond-style', 'rtl', 'replace');
 
